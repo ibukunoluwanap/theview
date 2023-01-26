@@ -1,0 +1,19 @@
+.category_item {
+    text-decoration: none;
+    color: black;
+}
+
+.category_name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 0.8rem;
+    padding: 1.5rem;
+}
+
+.category_name:hover {
+    background-color: #4fa83826;
+    color: #4faa38;
+    border: 1px solid #4faa38;
+}
