@@ -5,7 +5,7 @@ import { faHome, faHeart, faRightFromBracket } from '@fortawesome/free-solid-svg
 
 export default function Navbar() {
     return (
-        <nav className="navbar border-bottom navbar-expand-md fixed-top">
+        <nav className="navbar border-bottom navbar-expand-md bg-white fixed-top">
             <div className="container-fluid">
                 <a href="/">
                     <Image

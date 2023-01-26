@@ -11,10 +11,3 @@
 .nav_link:hover {
     color: #4faa38;
 }
-
-.btn {
-    background: black;
-    border-color: black;
-    border-radius: .8rem;
-    padding: .8rem 2rem;
-}

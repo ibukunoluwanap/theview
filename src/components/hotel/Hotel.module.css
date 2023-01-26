@@ -1,0 +1,12 @@
+.bg {
+    height: 500px;
+    background: linear-gradient(to top, #000000bf, transparent), url("/explore_travel.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.explore_container {
+    position: absolute;
+    bottom: 1rem !important;
+}
