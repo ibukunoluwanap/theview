@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Navbar from '@/components/navigation/navbar/navbar'
 import Category from '@/components/category/category'
 import Search from '@/components/search/search'
+import Hotel from '@/components/hotel/hotel'
+
 import ExploreHotel from '@/components/hotel/ExploreHotel'
 
 export default function Home() {
@@ -37,6 +39,7 @@ export default function Home() {
       <main>
         <Category />
         <Search />
+        <Hotel />
         <ExploreHotel />
       </main>
     </>

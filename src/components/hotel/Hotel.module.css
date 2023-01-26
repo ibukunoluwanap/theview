@@ -10,3 +10,49 @@
     position: absolute;
     bottom: 1rem !important;
 }
+
+.card {
+    position: relative;
+    height: 350px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.card_image {
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    background-color: red;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+}
+
+.card_body {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.card_title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+
+}
+
+.like {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: black;
+}
+
+.like:hover {
+    color: white;
+}
