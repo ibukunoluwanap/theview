@@ -3,8 +3,8 @@ import Navbar from '@/components/navigation/navbar/navbar'
 import Category from '@/components/category/category'
 import Search from '@/components/search/search'
 import Hotel from '@/components/hotel/hotel'
-
 import ExploreHotel from '@/components/hotel/ExploreHotel'
+import Place from '@/components/place/place'
 
 export default function Home() {
   return (
@@ -41,6 +41,7 @@ export default function Home() {
         <Search />
         <Hotel />
         <ExploreHotel />
+        <Place />
       </main>
     </>
   )

@@ -7,7 +7,7 @@ export default function Hotel() {
     return (
         <div className="container my-5 p-3">
             <div className="row">
-                <div className="col-sm-3  p-1">
+                <div className="col-sm-3 p-1">
                     <div className={styles.card}>
                         <Image
                             src="/explore_travel.png"

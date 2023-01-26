@@ -12,7 +12,7 @@ export default function ExploreHotel() {
                         Saint Augustine
                     </p>
                     <a href="#" className="btn btn-light bg_white">
-                        Explore <span className="primary">...</span>
+                        <b>Explore <span className="primary">...</span></b>
                     </a>
                 </div>
             </div>
