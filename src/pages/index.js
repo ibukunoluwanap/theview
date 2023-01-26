@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Navbar from '@/components/navigation/navbar/navbar'
+import Footer from '@/components/navigation/footer/footer'
 import Category from '@/components/category/category'
 import Search from '@/components/search/search'
 import Hotel from '@/components/hotel/hotel'
@@ -43,6 +44,8 @@ export default function Home() {
         <ExploreHotel />
         <Place />
       </main>
+
+      <Footer />
     </>
   )
 }
