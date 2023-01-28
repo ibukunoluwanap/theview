@@ -13,24 +13,19 @@ export default function Category() {
             </div>
 
             <div className="row">
-                <a href="#" className={`col-6 col-sm-3 p-1 ${styles.category_item}`}>
+                <a href="#" className={`col-6 col-sm-4 p-1 ${styles.category_item}`}>
                     <div className={`${styles.category_name}`}>
                         Hotels <FontAwesomeIcon icon={faHotel} />
                     </div>
                 </a>
-                <a href="#" className={`col-6 col-sm-3 p-1 ${styles.category_item}`}>
+                <a href="#" className={`col-6 col-sm-4 p-1 ${styles.category_item}`}>
                     <div className={`${styles.category_name}`}>
                         Restaurants <FontAwesomeIcon icon={faBowlFood} />
                     </div>
                 </a>
-                <a href="#" className={`col-6 col-sm-3 p-1 ${styles.category_item}`}>
+                <a href="#" className={`col-6 col-sm-4 p-1 ${styles.category_item}`}>
                     <div className={`${styles.category_name}`}>
                         Attraction <FontAwesomeIcon icon={faMountainCity} />
-                    </div>
-                </a>
-                <a href="#" className={`col-6 col-sm-3 p-1 ${styles.category_item}`}>
-                    <div className={`${styles.category_name}`}>
-                        Flights <FontAwesomeIcon icon={faPlaneArrival} />
                     </div>
                 </a>
             </div>

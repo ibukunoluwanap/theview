@@ -4,8 +4,9 @@ import Footer from '@/components/navigation/footer/footer'
 import Category from '@/components/category/category'
 import Search from '@/components/search/search'
 import Hotel from '@/components/hotel/hotel'
-import ExploreHotel from '@/components/hotel/ExploreHotel'
+import ExploreHotel from '@/components/hotel/exploreHotel'
 import Place from '@/components/place/place'
+import Restaurant from '@/components/restaurant/restaurant'
 
 export default function Home() {
   return (
@@ -43,6 +44,7 @@ export default function Home() {
         <Hotel />
         <ExploreHotel />
         <Place />
+        <Restaurant />
       </main>
 
       <Footer />

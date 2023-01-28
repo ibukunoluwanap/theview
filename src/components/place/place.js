@@ -28,54 +28,6 @@ export default function Place() {
                             </h5>
                         </div>
                     </a>
-                    <a href="#" className="col-sm-3 p-1">
-                        <div className={styles.card}>
-                            <Image
-                                src="/explore_travel.png"
-                                alt="Image"
-                                width={0}
-                                height={0}
-                                className={styles.card_image}
-                                unoptimized
-                            />
-                            <div className={styles.card_overlay}></div>
-                            <h5 className={styles.card_title}>
-                                Nicosia Full Day Shopping Tour from Paphos
-                            </h5>
-                        </div>
-                    </a>
-                    <a href="#" className="col-sm-3 p-1">
-                        <div className={styles.card}>
-                            <Image
-                                src="/explore_travel.png"
-                                alt="Image"
-                                width={0}
-                                height={0}
-                                className={styles.card_image}
-                                unoptimized
-                            />
-                            <div className={styles.card_overlay}></div>
-                            <h5 className={styles.card_title}>
-                                Nicosia Full Day Shopping Tour from Paphos
-                            </h5>
-                        </div>
-                    </a>
-                    <a href="#" className="col-sm-3 p-1">
-                        <div className={styles.card}>
-                            <Image
-                                src="/explore_travel.png"
-                                alt="Image"
-                                width={0}
-                                height={0}
-                                className={styles.card_image}
-                                unoptimized
-                            />
-                            <div className={styles.card_overlay}></div>
-                            <h5 className={styles.card_title}>
-                                Nicosia Full Day Shopping Tour from Paphos
-                            </h5>
-                        </div>
-                    </a>
                 </div>
             </div>
         </div>
